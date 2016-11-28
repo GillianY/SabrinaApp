@@ -2,21 +2,42 @@
 //  ViewController.swift
 //  MyDiary
 //
-//  Created by ucom Apple 13 on 2016/11/25.
-//  Copyright © 2016年 GinaY. All rights reserved.
+//  Created by Gillian on 2016/11/28.
+//  Copyright © 2016年 Gillian_studio. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var mainDraries: UISegmentedControl!
+    
+    @IBAction func segmentSelected(sender: UISegmentedControl) {
+        switch segmentSegue.selectedSegmentIndex {
+        case 0:
+            performSegueWithIdentifier("FirstSegue", sender: self)
+        case 1:
+            //DiaryItemSegue
+            //CalenadarView
+            performSegueWithIdentifier("SecondSegue", sender: self)
+        case 2:
+                performSegueWithIdentifier("SecondSegue", sender: self)
+            
+        default:
+            println("You shouldn't be here")
+        }
+    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    @IBAction func segmentsChanged(_ sender: UISegmentedControl) {
-        NSLog("# of Segments = \(sender.numberOfSegments)")
+
+    @IBOutlet weak var segTabs: UISegmentedControl!
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    @IBAction func segTabChangeHandler(sender: UISegmentedControl) {
         
         switch sender.selectedSegmentIndex {
         case 0: //entry
@@ -31,12 +52,6 @@ class ViewController: UIViewController {
         
         NSLog("test");
 
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 

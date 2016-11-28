@@ -18,15 +18,16 @@ class entriesTableViewController:  UITableViewController  {
 //    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
 //        
 //        return self.section//\[section\]
-//        
+//
 //    }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-       // return self.section;
+        return nil;//self.section;
+    }
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+         return self.section.count;
     }
   
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return self.section.count;
-    }
     
 //    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 //        // #warning Incomplete implementation, return the number of sections

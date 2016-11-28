@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DC2B8AE1DEB40A300EF5C16"
+               BlueprintIdentifier = "C7FA0D521DE860A600550FE8"
                BuildableName = "MyDiary.app"
                BlueprintName = "MyDiary"
                ReferencedContainer = "container:MyDiary.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DC2B8AE1DEB40A300EF5C16"
+            BlueprintIdentifier = "C7FA0D521DE860A600550FE8"
             BuildableName = "MyDiary.app"
             BlueprintName = "MyDiary"
             ReferencedContainer = "container:MyDiary.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DC2B8AE1DEB40A300EF5C16"
+            BlueprintIdentifier = "C7FA0D521DE860A600550FE8"
             BuildableName = "MyDiary.app"
             BlueprintName = "MyDiary"
             ReferencedContainer = "container:MyDiary.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DC2B8AE1DEB40A300EF5C16"
+            BlueprintIdentifier = "C7FA0D521DE860A600550FE8"
             BuildableName = "MyDiary.app"
             BlueprintName = "MyDiary"
             ReferencedContainer = "container:MyDiary.xcodeproj">
