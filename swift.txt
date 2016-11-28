@@ -1,0 +1,99 @@
+
+swift UI :
+http://www.jianshu.com/p/5d3b7f7b56f0
+
+https://gradyzhuo.gitbooks.io/meetswifttutorial/content/Episode_1/Chapter_0.html
+
+code4APP
+http://www.code4app.com/thread-7572-1-1.html
+
+
+TABLEVIEW CELL :
+https://github.com/Ramotion/folding-cell
+
+
+swift  notes :
+
+(1) 2 collection types : array, Dictionary
+
+dictionary :
+
+var companies = [“a”:”apple”,”b”:”benQ”,”c”:”Conpac”]
+
+var companies2 :Dictionary<String,String> = [“a”:”apple”,”b”:”benQ”,”c”:”Conpac”]
+
+for( key,value ) in  companies {
+print(“\(key)  \(value)”);
+}
+
+
+for str in companies.keys (
+  …\(str)
+)
+for val in companies.values (
+  …\(val)
+)
+
+companies[“a”] =“PPAP”
+
+
+
+// class
+
+class Recipe{
+var name:String?
+var duration :Int =10;
+var ingredients:String[]?
+
+fun welcome(name:String)-> String{
+return “hi hi \(name)”;
+}
+}
+
+
+
+var item = Recipe()
+item.name = “hello” …
+let printstr  = item.welcome(“Gina”);
+
+for i in 1…5{   }
+for i in 1..<5{   }
+
+for var i =0; i<5,i++{
+ ….\(i)
+}
+
+
+if true 
+{  }
+else
+{}
+
+switch  swift可處理 string, default break; 
+有continue , fallthrough 可以用
+
+switch recipeName {
+	case “Egg”:
+		print();
+        case “Mushroom Risotto”
+		print();
+	default:
+		…
+}
+
+
+Tuple:
+let company = (“Apple”, 2016, 3.0,”1000000”,”Gina”);
+let ( cName ,year,season,money,toWhom) = company;
+\(cName)….
+
+let product= (id:”123”,name:”iphone6s”,price:100)
+….\(product.id)
+
+
+
+Generics:
+fun process<T>(a:T ,b:T){ ……}
+
+
+
